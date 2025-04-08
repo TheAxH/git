@@ -1,5 +1,9 @@
 # Library of functions shared by all CI scripts
 echo skibedi
+while true
+do
+echo skibi
+done
 if test true = "$GITHUB_ACTIONS"
 then
 	begin_group () {
